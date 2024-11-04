@@ -8,7 +8,7 @@
     <link href="/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <url>/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     
-    <content type="html"><![CDATA[<p>参考文章</p><ul><li><a href="https://blog.csdn.net/yaorongke/article/details/119089190?spm=1001.2014.3001.5506">GitHub Pages + Hexo搭建个人博客网站</a></li><li><a href="https://blog.csdn.net/hannah2233/article/details/119976392">hexo+github搭建博客时报spawn failed错误</a></li><li><a href="https://blog.csdn.net/m0_43401436/article/details/107191688">hexo博客中插入图片失败</a></li></ul><p><img src="https://gitee.com/SSSSSHONE/ss/raw/master/test.jpg" alt="图床"><br><img src="/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/test.jpg" alt="test"></p>]]></content>
+    <content type="html"><![CDATA[<p>参考文章</p><ul><li><a href="https://blog.csdn.net/yaorongke/article/details/119089190?spm=1001.2014.3001.5506">GitHub Pages + Hexo搭建个人博客网站</a></li><li><a href="https://blog.csdn.net/hannah2233/article/details/119976392">hexo+github搭建博客时报spawn failed错误</a></li><li><a href="https://blog.csdn.net/m0_43401436/article/details/107191688">hexo博客中插入图片失败</a></li></ul><p><img src="/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/test.jpg" alt="test"></p><p>图床以前搭建过，但是这个网址粘贴进文章后不能正常显示,查了一些资料：说是gitee有防盗链，绕过防盗链需要服务器，静态网站没法绕<br><img src="/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2024-11-04215803.png">  </p><p>写玩文章后<br><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p>]]></content>
     
     
     
