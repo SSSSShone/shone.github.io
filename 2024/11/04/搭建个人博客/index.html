@@ -37,11 +37,23 @@
 <meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108155137.png">
 <meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108155422.png">
 <meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108155614.png">
-<meta property="og:image" content="http://ssssshone.github.io/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2024-11-04215803.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108161829.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108162054.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108162408.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108162548.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108162843.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108163003.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108163257.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108163625.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108163732.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108163942.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108164031.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108164233.png">
+<meta property="og:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108164353.png">
 <meta property="og:image" content="http://ssssshone.github.io/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2024-11-04221220.png">
-<meta property="og:image" content="http://ssssshone.github.io/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2024-11-04222154.png">
+<meta property="og:image" content="http://ssssshone.github.io/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2024-11-04215803.png">
 <meta property="article:published_time" content="2024-11-04T12:03:06.000Z">
-<meta property="article:modified_time" content="2024-11-08T08:07:11.773Z">
+<meta property="article:modified_time" content="2024-11-08T08:51:15.738Z">
 <meta property="article:author" content="YANG">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://gitee.com/SSSSSHONE/ss/raw/master/20241108151533.png">
@@ -284,7 +296,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-11-08T16:07:11+08:00
+                    本文最后更新于 2024-11-08T16:51:15+08:00
                   
                   
 
@@ -325,27 +337,36 @@
 <p>本地启动  </p>
 <figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs axapta">hexo g<br>hexo <span class="hljs-keyword">server</span><br></code></pre></td></tr></table></figure>
 <p>浏览器访问<a target="_blank" rel="noopener" href="http://localhost:4000/"></a>，页面默认主图风格如下<br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108155614.png" srcset="/img/loading.gif" lazyload>  </p>
-<h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><p>本教程使用<code>Fluid</code>主题<br><strong>安装主题</strong><br>下载 最新 release 版本 解压到 themes 目录，并将解压出的文件夹重命名为 fluid。</p>
+<h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><p>本教程使用<code>Fluid</code>主题<br><strong>安装主题</strong><br>下载 <a target="_blank" rel="noopener" href="https://github.com/fluid-dev/hexo-theme-fluid/releases">最新 release 版本</a> 解压到 <code>themes</code> 目录，并将解压出的文件夹重命名为 <code>fluid</code>。  </p>
 <p><strong>指定主题</strong></p>
 <p>如下修改 Hexo 博客目录中的 <code>_config.yml</code>：</p>
 <figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs avrasm"><span class="hljs-symbol">theme:</span> fluid  <span class="hljs-meta"># 指定主题</span><br><span class="hljs-symbol">language:</span> <span class="hljs-built_in">zh</span>-CN  <span class="hljs-meta"># 指定语言，会影响主题显示的语言，按需修改</span><br></code></pre></td></tr></table></figure>
-<p>创建「关于页」</p>
+<p><strong>创建「关于页」</strong></p>
 <p>首次使用主题的「关于页」需要手动创建：</p>
 <figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs actionscript">hexo <span class="hljs-keyword">new</span> page about<br></code></pre></td></tr></table></figure>
 <p>创建成功后，编辑博客目录下 <code>/source/about/index.md</code>，添加 layout 属性。</p>
 <p>修改后的文件示例如下：</p>
-<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs md">---<br>title: about<br>date: 2020-02-23 19:20:33<br><span class="hljs-section">layout: about</span><br><span class="hljs-section">---</span><br></code></pre></td></tr></table></figure>
-<p>这里写关于页的正文，支持 Markdown, HTML</p>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs md">---<br>title: 关于我<br>layout: about<br><span class="hljs-section">date: 2024-11-05 13:36:46</span><br><span class="hljs-section">---</span><br></code></pre></td></tr></table></figure>
 <p>本地启动</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs css">hexo <span class="hljs-selector-tag">g</span> -d<br>hexo s<br></code></pre></td></tr></table></figure>
-<p>浏览器访问 <a href="http://localhost:4000，Fluid主题风格页面如下">http://localhost:4000，Fluid主题风格页面如下</a></p>
-<h1 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h1><p>搭建过程见<a target="_blank" rel="noopener" href="https://blog.csdn.net/yaorongke/article/details/119089190?spm=1001.2014.3001.5506">GitHub Pages + Hexo搭建个人博客网站</a>，我就写写搭建过程中遇到的问题吧  </p>
+<p>浏览器访问 <a target="_blank" rel="noopener" href="http://localhost:4000/"></a>，Fluid主题风格页面如下</p>
+<h1 id="添加阅读量统计-和-评论功能"><a href="#添加阅读量统计-和-评论功能" class="headerlink" title="添加阅读量统计 和 评论功能"></a>添加阅读量统计 和 评论功能</h1><p>去<a target="_blank" rel="noopener" href="https://console.leancloud.cn/">LeanCloud官网</a> 申请账号并实名认证,本教程使用LeanCloud国内版<br>注册完成后按如下顺序创建应用<br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108161829.png" srcset="/img/loading.gif" lazyload><br>进入该应用的<code>设置</code>-&gt;<code>应用凭证</code>,找到<code>AppID</code>、<code>AppKey</code>和<code>REST API 服务器地址</code>，记录下来后面配置要用<br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108162054.png" srcset="/img/loading.gif" lazyload><br>打开主题目录 <code>themes\fluid</code>下的<code>_config.yml</code>文件，修改如下配置<br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108162408.png" srcset="/img/loading.gif" lazyload><br>配置 leancloud：  </p>
+<ul>
+<li><code>AppID</code>填入<code>app_id</code>  </li>
+<li><code>AppKey</code>填入<code>app_key</code>  </li>
+<li><code>REST API 服务器地址</code>填入<code>server_url</code></li>
+</ul>
+<p><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108162548.png" srcset="/img/loading.gif" lazyload><br>打开计数功能，统计来源改为<code>leancloud</code><br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108162843.png" srcset="/img/loading.gif" lazyload><br>页面底部显示<code>访问量</code>和<code>访客数</code><br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108163003.png" srcset="/img/loading.gif" lazyload><br>添加评论功能<br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108163257.png" srcset="/img/loading.gif" lazyload>  </p>
+<h1 id="发布到GitHub-Pages"><a href="#发布到GitHub-Pages" class="headerlink" title="发布到GitHub Pages"></a>发布到GitHub Pages</h1><p>安装hexo-deployer-git</p>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ada">npm install hexo-deployer-git <span class="hljs-comment">--save</span><br></code></pre></td></tr></table></figure>
+<p>修改<strong>根目录</strong>下的<code>_config.yml</code>文件，配置 GitHub 相关信息<br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108163625.png" srcset="/img/loading.gif" lazyload><br><strong>获取<code>repo</code></strong>:<br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108163732.png" srcset="/img/loading.gif" lazyload><br><strong>获取<code>token</code></strong>:<br>点击头像-&gt;Settings<br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108163942.png" srcset="/img/loading.gif" lazyload><br>点击最下方<code>Developer settings</code><br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108164031.png" srcset="/img/loading.gif" lazyload><br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108164233.png" srcset="/img/loading.gif" lazyload><br>按如下设置，我设置的是令牌不过期，但只能访问博客的库<br><img src="https://gitee.com/SSSSSHONE/ss/raw/master/20241108164353.png" srcset="/img/loading.gif" lazyload><br>点击<code>Generate token</code><br>部署到GitHub   </p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs css">hexo <span class="hljs-selector-tag">g</span> -d<br></code></pre></td></tr></table></figure>
+<h1 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h1><h3 id="头部信息Front-Matte"><a href="#头部信息Front-Matte" class="headerlink" title="头部信息Front Matte"></a>头部信息Front Matte</h3><h3 id="文章中插入图片"><a href="#文章中插入图片" class="headerlink" title="文章中插入图片"></a>文章中插入图片</h3><p>看的教程里说图片要按绝对路径，但是使用后无法正常查看，参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_43401436/article/details/107191688">hexo博客中插入图片失败</a>发现插件的文档里写的很清楚，文件不写路径，只写文件名。即：不是<del>![test](&#x2F;搭建个人博客&#x2F;test.jpg)</del>而是![test](test.jpg),虽然在md文档里看着不对，但是插件转换后在网页里是正常的<br><img src="/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2024-11-04221220.png" srcset="/img/loading.gif" lazyload> </p>
+<h1 id="个性化"><a href="#个性化" class="headerlink" title="个性化"></a>个性化</h1><h1 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h1><p>搭建过程见<a target="_blank" rel="noopener" href="https://blog.csdn.net/yaorongke/article/details/119089190?spm=1001.2014.3001.5506">GitHub Pages + Hexo搭建个人博客网站</a>，我就写写搭建过程中遇到的问题吧  </p>
 <h3 id="防盗链"><a href="#防盗链" class="headerlink" title="防盗链"></a>防盗链</h3><p>图床以前搭建过，但是这个网址粘贴进文章后不能正常显示,查了一些资料：说是gitee有防盗链，绕过防盗链需要服务器，静态网站没法绕<br><img src="/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2024-11-04215803.png" srcset="/img/loading.gif" lazyload>    </p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;referrer&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;no-referrer&quot;</span> /&gt;</span><br></code></pre></td></tr></table></figure>
-<h3 id="文章中插入图片"><a href="#文章中插入图片" class="headerlink" title="文章中插入图片"></a>文章中插入图片</h3><p>看的教程里说图片要按绝对路径，但是使用后无法正常查看，参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_43401436/article/details/107191688">hexo博客中插入图片失败</a>发现插件的文档里写的很清楚，文件不写路径，只写文件名。即：不是<del>![test](&#x2F;搭建个人博客&#x2F;test.jpg)</del>而是![test](test.jpg),虽然在md文档里看着不对，但是插件转换后在网页里是正常的<br><img src="/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2024-11-04221220.png" srcset="/img/loading.gif" lazyload>     </p>
-<h3 id="网站阅读量统计"><a href="#网站阅读量统计" class="headerlink" title="网站阅读量统计"></a>网站阅读量统计</h3><p>教程里没有区分<code>leancloud</code>国际版和国内版，两个版本在配置上稍有区别，国内版需要多加一行参数: <code>server_url: https://nioyonol.lc-cn-n1-shared.com</code><br><img src="/2024/11/04/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/2024-11-04222154.png" srcset="/img/loading.gif" lazyload>  </p>
 <h1 id="网站维护与使用"><a href="#网站维护与使用" class="headerlink" title="网站维护与使用"></a>网站维护与使用</h1><h3 id="创建与删除文章"><a href="#创建与删除文章" class="headerlink" title="创建与删除文章"></a>创建与删除文章</h3><p>直接在<code>C:\Users\31460\hexo-blog\source\_posts</code>文件夹内操作即可，创建文件并不用一定使用<code>hexo new post 测试文章</code>命令,直接在文件夹内操作是等效的    </p>
-<h3 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h3><p>创建一个文章同名文件夹来放图片   </p>
+<h3 id="写文章-1"><a href="#写文章-1" class="headerlink" title="写文章"></a>写文章</h3><p>创建一个文章同名文件夹来放图片   </p>
 <p>写完文章后  </p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs css">hexo clean<br>hexo <span class="hljs-selector-tag">g</span><br>hexo d<br></code></pre></td></tr></table></figure>
 <p>即可把文章上传到网站  </p>
